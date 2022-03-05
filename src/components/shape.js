@@ -1,3 +1,15 @@
 // declare class
+class Shape {
+    drawShape(){
+        console.log("Circle")
+    }
+    caculateArea(){
+        return 3.14*4*4;
+    }
+    color(){
+        this.color=red;
+    }
+}
 
-// export class using module.exports
+module.exports=Shape;
+// export class using module.exportsclass
