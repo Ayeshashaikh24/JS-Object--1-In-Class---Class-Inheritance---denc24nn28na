@@ -3,7 +3,7 @@ class Shape {
     drawShape(){
         console.log("Circle")
     }
-    caculateArea(){
+    calculateArea(){
         return 3.14*4*4;
     }
     color(){
